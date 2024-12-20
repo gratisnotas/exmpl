@@ -12,3 +12,5 @@ plt.axis([-1,6,-5,20]) # setting x- and y-axis limits in the plot
 plt.grid(True)
 plt.plot(X,Y)
 plt.show()
+
+# plt.xlim([x_min,x_max]) and  plt.ylim([y_min,y_max]) can also be used
