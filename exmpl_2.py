@@ -4,10 +4,10 @@
 
 import matplotlib.pyplot as plt
 
-x = range(6)
-y = [i**2 for i in x]
+X = range(6)
+Y = [x**2 for x in X]
 
-plt.plot(x,y)
+plt.plot(X,Y)
 plt.show()
 
 # The output would be the same if just x is plotted
